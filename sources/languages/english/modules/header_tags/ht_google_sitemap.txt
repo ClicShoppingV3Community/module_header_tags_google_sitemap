@@ -1,0 +1,4 @@
+
+ module_header_tags_sitemap_title = Do  you want use  Google Sitemap ?
+ module_header_tags_sitemap_description = Add Google Sitemap to the store
+
