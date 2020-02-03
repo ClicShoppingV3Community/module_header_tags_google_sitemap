@@ -76,7 +76,7 @@
           'configuration_title' => 'Souhaitez-vous insérer le code de Google Sitemap (Gestion des cartographies) ?',
           'configuration_key' => 'MODULE_HEADER_TAGS_SITEMAP_ID',
           'configuration_value' => '',
-          'configuration_description' => 'Veuillez vous enregistrer sur google webmaster pour réaliser cette opération<br /><br />Les noms de fichier à fournir sont (répertoire boutique):<br /><br />google_sitemap_categories.php<br />google_sitemap_products.php<br />google_sitemap_index.php<br /><br /><br />L\'URL de la boutique à enregistrer sur google sitempap: http://www.maboutique.com/boutique.<br /><br />Veuillez insérer la clef donnée',
+          'configuration_description' => 'Veuillez vous enregistrer sur google webmaster pour réaliser cette opération<br /><br />Les noms de fichier à fournir sont (répertoire boutique):<br /><br />google_sitemap_categories.php<br />google_sitemap_products.php<br />google_sitemap_index.php<br /><br /><br />L\'URL de la boutique à enregistrer sur google sitemapp: http://www.maboutique.com/boutique.<br /><br />Veuillez insérer la clef donnée',
           'configuration_group_id' => '6',
           'sort_order' => '2',
           'set_function' => '',
