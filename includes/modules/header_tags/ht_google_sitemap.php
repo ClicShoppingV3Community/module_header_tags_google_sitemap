@@ -14,8 +14,8 @@
 
   class ht_google_sitemap
   {
-    public $code;
-    public $group;
+    public string $code;
+    public string $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
@@ -29,7 +29,7 @@
       $this->title = CLICSHOPPING::getDef('module_header_tags_sitemap_title');
       $this->description = CLICSHOPPING::getDef('module_header_tags_sitemap_description');
 
-      if (defined('MODULE_HEADER_TAGS_SITEMAP_STATUS')) {
+      if (\defined('MODULE_HEADER_TAGS_SITEMAP_STATUS')) {
         $this->sort_order = MODULE_HEADER_TAGS_SITEMAP_SORT_ORDER;
         $this->enabled = (MODULE_HEADER_TAGS_SITEMAP_STATUS == 'True');
       }
@@ -40,7 +40,7 @@
 
       $CLICSHOPPING_Template = Registry::get('Template');
 
-      if (!is_null(MODULE_HEADER_TAGS_SITEMAP_ID)) {
+      if (!\is_null(MODULE_HEADER_TAGS_SITEMAP_ID)) {
 
         $CLICSHOPPING_Template->addBlock('<meta name="google-site-verification" content="' . MODULE_HEADER_TAGS_SITEMAP_ID . '" />', $this->group);
       }
@@ -53,7 +53,7 @@
 
     public function check()
     {
-      return defined('MODULE_HEADER_TAGS_SITEMAP_STATUS');
+      return \defined('MODULE_HEADER_TAGS_SITEMAP_STATUS');
     }
 
     public function install()
